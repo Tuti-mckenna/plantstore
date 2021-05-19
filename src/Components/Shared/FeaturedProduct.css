@@ -1,0 +1,9 @@
+.cardProduct {
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.cardImg {
+  height: 200px;
+  width: auto;
+}
