@@ -1,12 +1,11 @@
 import React from "react";
-//Bootstrap
+
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-//Bootstrap Icons
 import { CartIcon } from "../CartIcon/CartIcon";
-//Logo
+
 import logo from "../../assets/leaf.png";
-//css
+
 import "./Header.css";
 
 export const Header = () => {

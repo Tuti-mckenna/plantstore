@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 
 import { Container, Row, Button } from "react-bootstrap";
-
 import { Bag } from "react-bootstrap-icons";
 
 import { Link } from "react-router-dom";

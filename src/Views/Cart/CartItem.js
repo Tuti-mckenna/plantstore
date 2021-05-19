@@ -1,13 +1,12 @@
 import React from "react";
-//Bootstrap
-import { Row, Col } from "react-bootstrap";
-//Bootstrap Icons
+
+import { Row, Col, Card } from "react-bootstrap";
 import {
   TrashFill,
   DashCircleFill,
   PlusCircleFill,
 } from "react-bootstrap-icons";
-//css
+
 import "./CartItem.css";
 
 export const CartItem = (props) => {
@@ -26,24 +25,28 @@ export const CartItem = (props) => {
 
   return (
     <Row className="item">
-      <Col
-        style={{ width: "18rem" }}
-        className="block-example border rounded mb-0"
-      >
-        <img src={imageUrl} className="cartImg" alt="imagen-planta" />
+      <Col>
+        <Card style={{ width: "14rem" }} className="cardProduct">
+          <Card.Img
+            variant="top widht=10%"
+            src={imageUrl}
+            className="cartImg"
+            alt="imagen-planta"
+          />
+          <Card.Body>
+            <Card.Title>{title}</Card.Title>
+            <Card.Text>$ {price}</Card.Text>
+            <Card.Text>cantidad: {quantity}</Card.Text>
 
-        <h4>{title}</h4>
-        <p>$ {price}</p>
-        <h5>cantidad: {quantity}</h5>
-
-        <PlusCircleFill width="30px" onClick={() => increase(product)} />
-
-        {quantity >= 1 && (
-          <TrashFill width="30px" onClick={() => removeProduct(product)} />
-        )}
-        {quantity > 1 && (
-          <DashCircleFill width="30px" onClick={() => decrease(product)} />
-        )}
+            <PlusCircleFill width="30px" onClick={() => increase(product)} />
+            {quantity >= 1 && (
+              <TrashFill width="30px" onClick={() => removeProduct(product)} />
+            )}
+            {quantity > 1 && (
+              <DashCircleFill width="30px" onClick={() => decrease(product)} />
+            )}
+          </Card.Body>
+        </Card>
       </Col>
     </Row>
   );

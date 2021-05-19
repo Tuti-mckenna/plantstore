@@ -15,10 +15,7 @@ export const BuyFinished = () => {
             <h1>¡Ya terminaste la compra!</h1>
           </Row>
           <Row>
-            <h3>En los proximos dias recibirá su pedido.</h3>
-          </Row>
-          <Row>
-            <Link to="/" style={{ "margin-top": "2%" }}>
+            <Link to="/" style={{ marginTop: "2%" }}>
               <Button variant="success">Volve a la tienda</Button>
             </Link>
           </Row>
