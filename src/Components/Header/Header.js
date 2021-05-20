@@ -18,7 +18,7 @@ export const Header = () => {
         <Nav.Link href="/" className="linkNav">
           Plant Store
         </Nav.Link>
-        <Nav.Link href="/#/products" className="linkNav">
+        <Nav.Link href="/shop" className="linkNav">
           Tienda
         </Nav.Link>
       </Nav>

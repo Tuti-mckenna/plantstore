@@ -1,8 +1,7 @@
 import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import { HashRouter as Router } from "react-router-dom";
 
 import { Home } from "./Views/Home/Home";
 import { Shop } from "./Components/Shop/Shop";
@@ -17,7 +16,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/products" component={Shop} />
+          <Route path="/shop" component={Shop} />
           <Route path="/product/:id" component={ProductDetails} />
           <Route path="/cart" component={CartPage} />
           <Route path="/form" component={BuyForm} />
