@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -8,14 +8,11 @@ import ProductsProvider from "./Context/ProductsContext";
 import { CartProvider } from "./Context/CartContext";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <ProductsProvider>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </ProductsProvider>
-  </BrowserRouter>,
-
+  <ProductsProvider>
+    <CartProvider>
+      <App />
+    </CartProvider>
+  </ProductsProvider>,
   document.getElementById("root")
 );
 
