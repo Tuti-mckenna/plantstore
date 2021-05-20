@@ -2,7 +2,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 import { Home } from "./Views/Home/Home";
 import { Shop } from "./Components/Shop/Shop";
