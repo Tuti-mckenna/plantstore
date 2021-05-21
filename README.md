@@ -10,13 +10,13 @@ Clonar proyecto desde el link (https://github.com/Tuti-mckenna/plantstore.git)
 
 ## Instalación 🔧
 
-una vez clonado el repositorio desde la consola correr los siguientes comandos para instalar las dependencias
+Una vez clonado el repositorio desde la consola correr los siguientes comandos para instalar las dependencias
 
 ### `npm install`
 
 ## Iniciar el Proyecto
 
-ejecturar el siguiente comando en consola:
+Ejecturar el siguiente comando en consola:
 
 ### `npm start`
 
@@ -35,7 +35,7 @@ Dependencias
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 - [Firebase](https://firebase.google.com/)
 
-Proyecto 100% responsive design
+Proyecto 100% Responsive Design
 
 ## Powered By
 
