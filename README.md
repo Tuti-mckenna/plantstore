@@ -35,6 +35,8 @@ Dependencias
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 - [Firebase](https://firebase.google.com/)
 
+Proyecto 100% responsive design
+
 ## Powered By
 
 **Agustina Cagnoni** - [TutiCagnoni](https://github.com/Tuti-mckenna)
