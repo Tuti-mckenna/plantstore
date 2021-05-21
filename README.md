@@ -35,7 +35,7 @@ Dependencias
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 - [Firebase](https://firebase.google.com/)
 
-Proyecto 100% Responsive Design
+100% Responsive Design
 
 ## Powered By
 

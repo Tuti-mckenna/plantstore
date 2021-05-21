@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Home } from "./Views/Home/Home";
-import { Shop } from "./Components/Shop/Shop";
+import { Shop } from "./Views/Shop/Shop";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import { CartPage } from "./Views/Cart/CartPage";
 import { BuyForm } from "./Views/BuyForm/BuyForm";
