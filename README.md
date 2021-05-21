@@ -1,7 +1,8 @@
 # Plant Store
 
 Proyecto de una tienda de plantas.
-El usuario pueden agregar y sacar productos del carrito, para después realizar una compra ficticia. Cuenta con un formulario incluido que sube los datos ingresados por el usuario a Firebase Database.
+El usuario pueden agregar y sacar productos del carrito, para después realizar una compra ficticia.
+La página cuenta con un formulario de finalización de compra que sube los datos que ingresa el usuario a Firebase Database.
 
 ## Comenzando 🚀
 
@@ -19,7 +20,7 @@ ejecturar el siguiente comando en consola:
 
 ### `npm start`
 
-## Link del Proyecto :eye:
+## Para ver el Proyecto :eye:
 
 [Link de Netlify](https://relaxed-meninsky-299447.netlify.app/)
 
