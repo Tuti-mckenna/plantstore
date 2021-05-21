@@ -1,7 +1,5 @@
 # Plant Store
 
-![alt text](https://image.flaticon.com/icons/png/512/892/892917.png)
-
 Proyecto de una tienda de plantas.
 El usuario pueden agregar y sacar productos del carrito, para después realizar una compra ficticia. Cuenta con un formulario incluido que sube los datos ingresados por el usuario a Firebase Database.
 
@@ -21,7 +19,7 @@ ejecturar el siguiente comando en consola:
 
 ### `npm start`
 
-## Podes ver el Proyecto desde
+## Link del Proyecto :eye:
 
 [Link de Netlify](https://relaxed-meninsky-299447.netlify.app/)
 
