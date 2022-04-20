@@ -22,7 +22,7 @@ Ejecturar el siguiente comando en consola:
 
 ## Para ver el Proyecto :eye:
 
-[Link de Netlify](https://relaxed-meninsky-299447.netlify.app/)
+[Link de Netlify](https://plantsstore.netlify.app/)
 
 ## Construido con 🛠️
 
