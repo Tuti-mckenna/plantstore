@@ -50,7 +50,7 @@ export const SHOP_DATA = [
     description:
       "Considerada como una de las plantas de interior más resistentes, fáciles de cuidar y sumamente decorativas. Si quieres que crezca grande y fuerte, lo mejor es ponerla en un lugar cálido y luminoso pero sin sol directo. Para poder guiarla, darle forma y apoyarla, se sugiere poner un tutor o palo en donde pueda sostenerse para empezar a trepar. ",
     imageUrl:
-      "https://www.elmueble.com/medio/2020/10/29/planta-monstera_69927908_1200x1200.jpg",
+      "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera_variant_medium_hyde_mint_f0e6d601-426c-40fe-abc6-b0a1f4dce17b.jpg?v=1672212220",
     price: 450,
   },
   {
